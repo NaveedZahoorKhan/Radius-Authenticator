@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Radius_Authenticator
+﻿namespace Radius_Authenticator
 {
     class Program
     {
         static void Main(string[] args)
         {
+            LoginAuth auth = new LoginAuth();
+            auth.MyFunc();
         }
+
+
     }
 }
+
